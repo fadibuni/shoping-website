@@ -6,11 +6,17 @@ $main-color: black;
   font-size: 12px;
   color: $main-color;
 }
-.sign-up-container {
+.sign-in-conatiner {
     display: flex;
     flex-direction: column;
     width: 380px;
     h2 {
         margin: 10px 0;
     }
+
+    .buttons-container {
+      display: flex;
+      justify-content: space;
+    }
 }
+
